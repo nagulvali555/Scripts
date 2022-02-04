@@ -5,6 +5,7 @@ import configparser
 import boto3
 from pathlib import Path
 
+
 # defualt global values
 MFA_DEVICE_SERIAL_ARN   = "arn:aws:iam::546776815214:mfa/vali"
 
@@ -16,6 +17,7 @@ AWS_CREDS_FILE          = Path(Path.home() / ".aws/credentials")
 
 # profile name
 PROFILE_NAME            = "mfa"
+
 
 def command_args():
 
